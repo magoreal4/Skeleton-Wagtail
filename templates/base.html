@@ -24,7 +24,7 @@
         {% endif %}
 
         {# Global stylesheets #}
-        {% comment %} <link rel="stylesheet" type="text/css" href="{% static 'css/config.css' %}"> {% endcomment %}
+
         {% tailwind_css %} 
         
         {% block extra_css %}
@@ -32,7 +32,7 @@
         {% endblock %}
     </head>
 
-    <body class="bg-yellow-400 {% block body_class %}{% endblock %}">
+    <body class="bg-yellow-300 {% block body_class %}{% endblock %}">
         {% wagtailuserbar %}
 
         {% block content %}{% endblock %}
