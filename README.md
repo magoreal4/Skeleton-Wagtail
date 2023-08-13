@@ -69,7 +69,7 @@ Welcome to the Skeleton-Wagtail repository! This project serves as a skeleton fo
    
    If the background of the initial page at `http://127.0.0.1:8000` appears yellow, then Tailwind is functioning correctly.
 
-##### Tailwind
+### Tailwind
 
 To run Tailwind:
 
