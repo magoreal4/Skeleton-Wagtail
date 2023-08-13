@@ -79,10 +79,10 @@ python manage.py tailwind start
 
 ### Vite
 
-To run Vite within the `home` directory, navigate to `home` install npm and execute `npm run dev`:
+To run Vite within the `home/src` directory, navigate to `home/src` install npm and execute `npm run vite`:
 
 ```bash
-cd home 
+cd home/src
 npm install
 npm run vite
 ```
